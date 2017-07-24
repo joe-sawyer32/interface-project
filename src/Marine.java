@@ -2,6 +2,13 @@
  * Created by Joe on 7/24/17.
  */
 public class Marine extends Soldier implements HandToHandCombat, FirearmsCombat {
+
+    public Marine(String name, String rank, int serialNumber) {
+        this.name = name;
+        this.rank = rank;
+        this.serialNumber = serialNumber;
+    }
+
     @Override
     public void kill() {
         System.out.println("*two in the chest, one in the head");

@@ -2,6 +2,13 @@
  * Created by Joe on 7/24/17.
  */
 public class Knight extends Soldier implements HandToHandCombat {
+
+    public Knight(String name, String rank, int serialNumber) {
+        this.name = name;
+        this.rank = rank;
+        this.serialNumber = serialNumber;
+    }
+
     @Override
     public void punch() {
         System.out.println("*takes off glove, slaps in face");

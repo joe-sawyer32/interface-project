@@ -2,9 +2,11 @@
  * Created by Joe on 7/24/17.
  */
 abstract class Soldier {
-    private String name;
-    private String rank;
-    private int serialNumber;
+    protected String name;
+    protected String rank;
+    protected int serialNumber;
+
+
 
     void sleep() {
         System.out.println("zzzzz");
