@@ -5,4 +5,6 @@ package com.theironyard;
  */
 public interface NewInterface1 {
     void identical();
+
+//    int identical();
 }
