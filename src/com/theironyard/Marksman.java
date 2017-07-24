@@ -1,3 +1,5 @@
+package com.theironyard;
+
 /**
  * Created by Joe on 7/24/17.
  */
@@ -27,5 +29,10 @@ public class Marksman extends Soldier implements FirearmsCombat {
     @Override
     void speak() {
         System.out.println("Show me the target");
+    }
+
+    @Override
+    public void shoot() {
+        System.out.println("*click-click BANG");
     }
 }

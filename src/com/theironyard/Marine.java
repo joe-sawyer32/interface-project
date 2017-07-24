@@ -1,3 +1,5 @@
+package com.theironyard;
+
 /**
  * Created by Joe on 7/24/17.
  */
@@ -7,6 +9,8 @@ public class Marine extends Soldier implements HandToHandCombat, FirearmsCombat 
         this.name = name;
         this.rank = rank;
         this.serialNumber = serialNumber;
+
+        shoot();
     }
 
     @Override
